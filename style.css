@@ -1,0 +1,115 @@
+ *{
+     box-sizing: border-box;
+ }
+ body {
+    background: #f1f1f1;
+    padding:10px;
+    font-family: 'Open Sans', sans-serif;
+}
+.header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+  }
+  
+  .header h1 {
+    font-size: 50px;
+  }
+.menubar{
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+    width: 100%;
+} 
+.menubar li{
+    float: left;
+}
+.menubar a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.menubar a:hover{
+    background-color: #ddd;
+    color:black;
+}
+.active{
+    background-color:black;
+}
+.name{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom:2px;
+}
+
+.column{
+    float: left;
+    width: 33.3%;
+    padding: 15px;
+}
+.row:after{
+    content: "";
+    display:table;
+    clear:both;
+}  
+.card{
+    background-color:white;
+    padding:20px;
+    margin-top: 20px;
+    text-align: center;
+}
+@media screen and (max-width:600px){
+    .column{
+        width:100%;
+    }
+}
+
+.bio{
+    list-style: none;
+}
+.awardyears{
+    text-align: center;
+}
+.links {
+    list-style: none;
+    padding-left: 0px;
+    font-size: 18px;
+}
+
+.leftcolumn {   
+    float: left;
+    width: 50%;
+  }
+
+.rightcolumn {
+float: left;
+width: 50%;
+padding-left: 20px;
+text-align:center;
+}
+
+.links li {
+    display: inline-blocknone;
+    margin-right: 8px;
+}
+  
+.links a {
+    text-decoration: none;
+    padding: 4px;
+}
+  
+.links a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
